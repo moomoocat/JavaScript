@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Practice 3</title>
+</head>
+<body>
+	<section>
+	<!-- comment here -->
+		<ul>
+			<li>item 1</li>
+			<li>item 2</li>
+			<li>item 3</li>
+		</ul>
+		<ul>
+			<li>item 1b</li>
+			<li>item 2b</li>
+			<li>item 3b</li>
+		</ul>
+	</section>
+	
+	<script>
+		//searching in the DOM main elements:
+	document.getElementById('hello');//returns element by id tag
+	document.querySelectorAll('ul>li:first-child');//returns all list items
+	document.getElementsByTagName('li');//returns first child of each list
+	alert(document.body.nodeName);//has undefined to that element
+	alert(document.body.tagName);//includes comments and text nodes
+	</script>
+</body>
+</html>

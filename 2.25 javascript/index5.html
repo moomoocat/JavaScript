@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Practice 5</title>
+</head>
+
+<body>
+	<section>
+
+		<!-- comment here -->
+		<h1>hello!</h1>
+		<p id="p1">I'm a paragraph</p>
+		<p id="p2">I'm a paragraph as well</p>
+
+	</section>
+
+	<script>
+		//prompt('What day is it?');//asks user to answer a question or whatnot
+		var dayOfWeek = prompt('What day is it?');//var or variables caches information from last item saved or assigned 
+		document.getElementById('p1').innerHTML = 'Today is';
+		document.getElementById('p2').innerHTML = '<strong>'+dayOfWeek+'</strong>';//alters last variable inputted for "dayOfWeek"
+	</script>
+</body>
+
+</html>
